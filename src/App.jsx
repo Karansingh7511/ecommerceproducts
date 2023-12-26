@@ -1,13 +1,17 @@
 import React from 'react';
 import Search from './components/Search';
-import Wishlist from './components/Wishlist';
+import SideFilter from './components/SideFilter'
+import {Provider} from "react-redux";
+import appStore from "./utils/appStore";
 
 function App() {
   return (
-    <div className="App">
+    <Provider store={appStore}>
+    <div className="App" style={{display:'flex'}} >
+    <SideFilter/>
       <Search />
-      <Wishlist />
     </div>
+    </Provider>
   );
 }
 
