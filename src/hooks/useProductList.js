@@ -1,28 +1,63 @@
-import React,{useEffect} from 'react'
-import {useDispatch} from "react-redux";
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { addProducts } from '../utils/productSlice';
 
-const useProductList = (query) => {
-    const dispatch = useDispatch();
-    useEffect(() => {
-        const fetchData = async () => {
-          try {
-            const response = await fetch('./db.json');
-            var data = await response.json();
-            if(query.length){
-                data=data.filter(product => 
-                    product.Name?.trim().toLowerCase().includes(query.toLowerCase())
-                );
+const useProductList = () => {
+  const dispatch = useDispatch();
+
+  const queryFetchData = async (query) => {
+    try {
+      const response = await fetch('./db.json');
+      const data = await response.json();
+
+      // Filter the data based on the query, if provided
+      const filteredData = query
+        ? data.filter((product) =>
+            product.Name?.trim().toLowerCase().includes(query.toLowerCase())
+          )
+        : data;
+
+      // Dispatch the filtered data to the Redux store
+      dispatch(addProducts(filteredData));
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+
+  const filterFetchData = async (filter) => {
+    try {
+      const response = await fetch('./db.json');
+      const data = await response.json();
+
+      // Filter the data based on the filter, if provided
+      const filteredData = filter
+        ? data.filter((product) => {
+            if (filter === 'Mango' || filter === 'H&M') {
+              return filter === product.Brand;
+            } else if (filter === 'Under 500') {
+              return product.Price < 500;
+            } else if (filter === '1000 To 3000') {
+              return product.Price >= 1000 && product.Price <= 3000;
+            } else {
+              return product.Rating === filter;
             }
-            dispatch(addProducts(data));
-          } catch (error) {
-            console.error('Error fetching data:', error);
-          }
-        };
-    
-        fetchData();
-      }, []);
+          })
+        : data;
 
-}
+      // Dispatch the filtered data to the Redux store
+      dispatch(addProducts(filteredData));
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
 
-export default useProductList
+  useEffect(() => {
+    // Initial data fetching without a query or filter
+    queryFetchData();
+    filterFetchData();
+  }, []); // Empty dependency array ensures the effect runs only once on mount
+
+  return { queryFetchData, filterFetchData };
+};
+
+export default useProductList;

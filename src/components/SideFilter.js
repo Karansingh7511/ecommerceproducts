@@ -3,11 +3,11 @@ import useProductList from '../hooks/useProductList';
 
 const SideFilter = () =>{
     const [ selectedOption, setSelectedOption ] = useState('');
-    // var product = useProductList();
+    const {filterFetchData} = useProductList();
 
     const handleOptionChange = ( event ) =>{
         setSelectedOption(event.target.value );
-        // product(event.target.value);
+        filterFetchData(event.target.value);
     };
 
     return (
@@ -18,11 +18,11 @@ const SideFilter = () =>{
                 <label>
                     <input
                         type="radio"
-                        value="Monkey"
-                        checked={ selectedOption === 'Monkey' }
+                        value="Mango"
+                        checked={ selectedOption === 'Mango' }
                         onChange={ handleOptionChange }
                     />
-                    Monkey
+                    Mango
                 </label>
 
                 <label>
