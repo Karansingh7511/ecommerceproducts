@@ -1,0 +1,182 @@
+[
+    {
+        "ID": "1",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "1000",
+        "Discount": "499",
+        "Rating": "5",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "2",
+        "Name": "Jacket",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "4",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "3",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "5",
+        "Brand": "Mango"
+    },
+    {
+        "ID": "4",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "4",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "5",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "3",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "6",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "2",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "7",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "1",
+        "Brand": "Mango"
+    },
+    {
+        "ID": "8",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "4",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "9",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "1",
+        "Brand": "Mango"
+    },
+    {
+        "ID": "10",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "3",
+        "Brand": "Mango"
+    },
+    {
+        "ID": "11",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "4",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "12",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "2",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "13",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "2",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "14",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "1",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "15",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "2",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "16",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "4",
+        "Brand": "Mango"
+    },
+    {
+        "ID": "17",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "3",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "18",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "4",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "19",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "1",
+        "Brand": "H&M"
+    },
+    {
+        "ID": "20",
+        "Name": "Sweater",
+        "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "Price": "2000",
+        "Discount": "1500",
+        "Rating": "3",
+        "Brand": "Mango"
+    }
+]
