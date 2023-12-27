@@ -3,8 +3,8 @@
         "ID": "1",
         "Name": "Sweater",
         "Image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
-        "Price": "2000",
-        "Discount": "1500",
+        "Price": "1000",
+        "Discount": "499",
         "Rating": "5",
         "Brand": "H&M"
     },

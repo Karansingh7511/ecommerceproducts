@@ -35,9 +35,9 @@ const useProductList = () => {
             if (filter === 'Mango' || filter === 'H&M') {
               return filter === product.Brand;
             } else if (filter === 'Under 500') {
-              return product.Price < 500;
+              return product.Discount < 500;
             } else if (filter === '1000 To 3000') {
-              return product.Price >= 1000 && product.Price <= 3000;
+              return product.Discount >= 1000 && product.Discount <= 3000;
             } else {
               return product.Rating === filter;
             }
